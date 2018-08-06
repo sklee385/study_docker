@@ -1,0 +1,12 @@
+
+FROM mysql:latest
+MAINTAINER sklee <sklee385@gmail.com>
+
+
+ENV MYSQL_ROOT_PASSWORD 1234
+
+VOLUME ["/var/lib/mysql"]
+
+EXPOSE 3306
+
+
